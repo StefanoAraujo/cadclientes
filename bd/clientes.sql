@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `clientes`
+-- Estrutura da tabela `dados_clientes`
 --
 
 CREATE TABLE `clientes` (

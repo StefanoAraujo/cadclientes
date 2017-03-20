@@ -1,5 +1,5 @@
 <?php
-  $conexao = mysqli_connect("localhost","root","r00t","form_abas");
+  $conexao = mysqli_connect("localhost","usuario","senha","dados_clientes");
 
   /*if($conexao)
   	echo "OK";
