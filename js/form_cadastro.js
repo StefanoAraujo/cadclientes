@@ -46,7 +46,6 @@ $(document).ready(function() {
 $(document).ready(function(){
   $("#form_cadastro").submit(function(){
       var dados = $(this).serialize();
-      //alert(dados);
 
       $.ajax({
           url: "cadastro.php?acao=insereCliente",
