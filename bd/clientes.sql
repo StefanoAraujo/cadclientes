@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `clientes`
+-- Database: `dados_clientes`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `dados_clientes`
+-- Estrutura da tabela `clientes`
 --
 
 CREATE TABLE `clientes` (
