@@ -1,10 +1,3 @@
-<?php
-	session_start();
-	/* Controlar abas*/
-	if(!isset($_SESSION['control_aba'])){
-		$_SESSION['control_aba'] = 0;
-	}
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
