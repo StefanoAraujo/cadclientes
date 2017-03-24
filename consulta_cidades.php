@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json;, charset=utf-8');
 include_once "conf/conectaBanco.php";
 
 $estado = $_GET['estado'];
@@ -13,7 +14,7 @@ while($linha = mysqli_fetch_assoc($query))
 {
     $cidades[] = array(
     			 'id' => $linha['id'],
-    			 'nome' => utf8_encode($linha['nome'])
+    			 'nome' => ($linha['nome'])
     			 );  
 }
 
